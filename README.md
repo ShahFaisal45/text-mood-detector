@@ -18,6 +18,13 @@ AI-powered emotion detection app built with Streamlit and Hugging Face Transform
 * PyTorch
 * Pillow
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ShahFaisal45/image-mood-detector.git
+```
 
 Install dependencies:
 
