@@ -1,14 +1,14 @@
-# 😊 Image Mood Detector
+# 🎭 Mood Detector (Text)
 
-AI-powered emotion detection app built with Streamlit and Hugging Face Transformers.
+AI-powered mood detection application built with Streamlit and Hugging Face Transformers.
 
 ## Features
 
-* Upload face images
+* Enter any text or sentence
 * Detect emotions automatically
 * Shows confidence score
-* Clean and interactive UI
-* Fast emotion prediction
+* Interactive UI
+* Fast predictions using a pre-trained NLP model
 
 ## Technologies Used
 
@@ -16,7 +16,6 @@ AI-powered emotion detection app built with Streamlit and Hugging Face Transform
 * Streamlit
 * Hugging Face Transformers
 * PyTorch
-* Pillow
 
 ## Installation
 
@@ -38,17 +37,30 @@ Run the app:
 streamlit run app.py
 ```
 
+## Example Input
+
+```text
+I am feeling very happy today!
+```
+
+Example Output:
+
+```text
+Mood: Joy
+Confidence: 94.2%
+```
+
 ## Supported Emotions
 
-* Happy 😀
-* Sad 😢
-* Angry 😠
+* Joy 😀
+* Sadness 😢
+* Anger 😠
 * Fear 😨
 * Surprise 😲
 * Neutral 😐
 
 ## Future Improvements
 
-* Real-time webcam emotion detection
-* Multiple face detection
-* Emotion analytics dashboard
+* Speech-based mood detection
+* Multi-language support
+* Mood analytics dashboard
